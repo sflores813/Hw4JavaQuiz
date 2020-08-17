@@ -8,7 +8,7 @@
   --hue-wrong: 0;
   --hue-correct: 145;
 }
-
+/*changes the body*/
 body {
   --hue: var(--hue-neutral);
   padding: 0;
@@ -20,15 +20,15 @@ body {
   align-items: center;
   background-color:#28775f;
 }
-
+/*if the correct answer is chosen*/
 body.correct {
   --hue: var(--hue-correct);
 }
-
+/*if wrong answer is chosen*/
 body.wrong {
   --hue: var(--hue-wrong);
 }
-
+/*container atts.*/
 .container {
   width: 800px;
   max-width: 80%;
@@ -37,14 +37,14 @@ body.wrong {
   padding: 10px;
   box-shadow: 0 0 15px 15px#e0d20b ;
 }
-
+/*button layout*/
 .btn-grid {
   display: grid;
   grid-template-columns: repeat(2, auto);
   gap: 10px;
   margin: 20px 0;
 }
-
+/*button colors*/
 .btn {
   --hue: var(--hue-neutral);
   border: 1px solid hsl(var(--hue), 100%, 30%);
@@ -58,12 +58,12 @@ body.wrong {
 .btn:hover {
   border-color: black;
 }
-
+/*if youre right*/
 .btn.correct {
   --hue: var(--hue-correct);
   color: black;
 }
-
+/*if youre wrong*/
 .btn.wrong {
   --hue: var(--hue-wrong);
 }
