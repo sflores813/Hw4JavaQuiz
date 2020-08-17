@@ -1,1 +1,9 @@
-this is a Javascript quiz that is going to test youre knowledge about the language, I i attempted to 
+this is a Javascript quiz that is going to test youre knowledge on Javascript.
+
+
+
+
+
+
+https://sflores813.github.io/Hw4JavaQuiz/  --- here is a link to the deployed website.
+https://github.com/sflores813/Hw4JavaQuiz --- here is a link to the github.
